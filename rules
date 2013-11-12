@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_VERBOSE=1
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DBUILD_STATIC=ON
+
+# -D sets the source directory to pelican
+%:
+	dh $@ --parallel -Dpelican 

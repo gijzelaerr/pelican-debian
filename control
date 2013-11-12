@@ -1,0 +1,32 @@
+Source: pelican
+Priority: extra
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), libboost-dev, cmake,
+ libboost-program-options-dev, doxygen, libqt4-dev
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://www.oerc.ox.ac.uk/~ska/pelican/
+
+Package: libpelican-dev
+Section: libdevel
+Architecture: any
+Depends: pelican1 (= ${binary:Version})
+Description: the pelican library headers
+ <insert long description, indented with spaces>
+
+Package: libpelican1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: the pelican library
+ a high performance, light-weight, pipeline framework designed for
+ writing streaming applications.
+
+Package: pelican
+Section: science
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: the pelican relay
+ a high performance, light-weight, pipeline framework designed for
+ writing streaming applications.
+

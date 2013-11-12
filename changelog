@@ -1,0 +1,5 @@
+pelican (1.0.4-rc1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Tue, 12 Nov 2013 14:23:30 +0100
