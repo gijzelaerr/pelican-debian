@@ -10,7 +10,7 @@ Homepage: http://www.oerc.ox.ac.uk/~ska/pelican/
 Package: libpelican-dev
 Section: libdevel
 Architecture: any
-Depends: pelican1 (= ${binary:Version})
+Depends: libpelican1 (= ${binary:Version})
 Description: the pelican library headers
  <insert long description, indented with spaces>
 

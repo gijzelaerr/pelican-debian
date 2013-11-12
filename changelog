@@ -1,3 +1,9 @@
+pelican (1.0.4-rc1-2) saucy; urgency=low
+
+  *  fix dependecy issue
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Tue, 12 Nov 2013 17:34:32 +0100
+
 pelican (1.0.4-rc1-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
